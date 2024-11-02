@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.whitemode{
+    --Background: #eef1f6;
+    --backgroundHeader:#5f4587;
+    --corsinha1:#002757;
+    --corsinha2: #a29bca;
+    --corsinha3:#10151e;
+    --corisinha4:#4a4d54;
+
+
+}
+
+.darkmode{
+    --Background: #090c11;
+    --backgroundHeader: #9278ba;
+    --corsinha1:#a8cfff;
+    --corsinha2:#3c3564;
+    --corsinha3:#e1e6ef;
+    --corisinha4:#abaeb5;
+
+}
+
+#modoEC button{
+    color: var(--corisinha2);
+    border-color:var(--corsinha1);
+    background-color: var(--corsinha2);
+    height: 5vh;
+    border-radius: 9%;
+
+}
+
+#modoEC{
+    padding-top:2% ;
+    padding-left:80% ;
+
+}
+body{
+    background-color: var(--Background);
+}
+
+
+header{
+    width: 100%;
+    height: 8vh;
+    background-color: var(--backgroundHeader);
+    display: grid;
+    grid-template-columns: 18% 10% 10% 12% 10% 40%;
+    grid-template-rows: 8vh;
+    text-align: center;
+}
+header div{
+    background-color:  var(--backgroundHeader); 
+    text-align: center;
+
+}
+header div a { 
+    display: flex;
+    align-items: center;
+    background-color:  var(--backgroundHeader); 
+    color: var(--corsinha3);
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline var(--corsinha2);
+    padding-top: 8%;
+}
+
+#header_azul{
+    height: 2vh;
+    background-color:var(--corsinha1);
+}
+#header_roxo{
+    height: 1vh;
+    background-color: var(--corsinha2);
+}
+#apresetacao{
+    display: grid;
+    grid-template-columns: 18% 30% 34% 18%;
+    grid-template-rows: 12vh 70vh 3vh ;
+}
+.vazio1{
+    grid-row:1 ;
+    grid-column: 1/5;
+
+}
+.vazio2{
+    grid-column: 1;
+    grid-row:1/3 ;
+
+}
+
+.text{
+    grid-column: 3/5;
+    grid-row:2 ;
+
+}
+.subtitulo{
+    color: var(--corisinha4);
+    font-size: 20px;
+    
+}
+
+#border{
+    width: 70%;
+    height: 55vh;
+    border: solid 0.2vh var(--corsinha3);
+}
+#separacao{
+    width: 80%;
+    background-color:  var(--backgroundHeader);
+    height: 1vh;
+    margin-left: 10%;
+}
+#sobre{
+    height: 60vh;
+    padding-top: 5vh;
+    padding-left: 10%;
+
+}
+.Tsobre{
+    color: var(--corsinha2);
+    font-size: 45px;
+    font-weight: bold;
+}
+.tracinho{
+    background-color: var(--corsinha1);
+    width: 19%;
+    height: 3px;
+}
+.Ssobre{
+    padding-top: 5vh;
+    color: var(--corisinha4);
+    font-size: 20px;
+}
+
+#formacao{
+    height: 70vh;
+    padding-top: 2vh;
+    padding-left: 10%;
+
+}
+.Tformacao{
+    color: var(--corsinha1);
+    font-size: 45px;
+    font-weight: bold;
+}
+.tracinho2{
+    background-color: var(--corsinha2);
+    width: 18%;
+    height: 3px;
+}
+#textos{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3%;
+}
+.text1{
+    color: var(--corsinha3);
+    font-size: 20px;
+    padding-bottom: 2%
+}
+#timeLine{
+    width: 88%;
+    background-color:  var(--backgroundHeader);
+    height: 3vh;
+    margin-left: 5%;    
+}
+
+#textos2{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+.text2{
+    color: var(--corisinha4);
+    font-size: 20px;
+    
+}
+#hobbie{
+    padding-top: 5vh;
+    padding-left: 10%;
+}
+.Thobbie{
+
+    color: var(--corsinha2);
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.tracinho3{
+    background-color: var(--corsinha1);
+    width: 18%;
+    height: 3px;
+}
+
+#Fhobbies{
+    padding-top: 3%;
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+
+}
+
+.hobbieSub{
+    color: var(--corisinha4);
+    font-size: 20px;
+}
+
+#habilidade{
+    padding-top: 2vh;
+    padding-left: 10%;
+}
+.Thabi{
+    color: var(--corsinha1);
+    font-size: 45px;
+    font-weight: bold;
+}
+.tracinho4{
+    background-color: var(--corsinha2);
+    width: 18%;
+    height: 3px;
+    margin-bottom: 4%;
+
+}
+#HabiG{
+    width: 80%;
+    background-color:  var(--backgroundHeader);
+    height: 50vh;
+    border-radius: 20px;
+    color: var(--corsinha3);
+    font-size: 4.2vh;
+    padding-left: 2%;
+    line-height: 12vh;
+
+}
+
+#HabiG svg{
+    height: 3vh;
+    color: var(--corsinha1);
+}
+
+#lingua{
+    display: grid;
+    grid-template-columns: 10% 26% 12% 26% 14%;
+    grid-template-rows:7vh 40vh 20vh ;
+}
+#ing{
+    grid-column: 2;
+    grid-row: 2;
+    background-color: var(--corsinha2);
+    border-radius: 3vh;
+}
+
+.Lsub{
+   color: var(--corsinha1);
+   font-size: 5vh;
+   font-weight: bolder;
+   padding-left: 3%;
+   padding-top: 2%;
+}
+
+#esp{
+    grid-column: 4;
+    grid-row: 2;
+    background-color: var(--corsinha2);
+    border-radius: 3vh;
+}
+
+
+.Lsubb{
+    color: var(--corsinha3);
+    font-size: 4.2vh;
+    padding-left: 2%;
+    line-height: 9vh;
+}
+
+
+footer{
+    background-color:  var(--backgroundHeader);
+    display: grid;
+    grid-template-columns: 10% 20% 20% 20% 20% 10%;
+    grid-template-rows: 15vh ;
+    padding-left: 1%;
+    padding-top: 1%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: var(--corsinha3);
+}
+
+/* java */
+
+.e{
+ 
+        color: var(--corsinha3);
+        font-size: 30px;
+    
+    
+}
+.e::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation : pisca.7s infinite;
+    }
+    @keyframes pisca{
+     0%, 100%{
+        opacity: 1;
+     }
+     50%{
+        opacity: 0;
+     }
+    
+    }
